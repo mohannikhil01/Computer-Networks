@@ -1,0 +1,11 @@
+sed -n 's/.<td data-sort-value="\([^"]*\).*/\1/p' Packet\ Clearing\ House\ _\ PCH.html > files.txt
+
+// To remove spaces
+sed 's/ //g' files.txt
+
+Used scripts under : /home/nikhil/Desktop/Semester-2/Project/Scripts/Script_Extract_5.sh
+
+
+
+
+
